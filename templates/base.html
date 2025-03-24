@@ -7,15 +7,11 @@
     <script src="https://cdn.tailwindcss.com/3.4.0"></script>
 </head>
 <body>
-    <header>
+    {% include 'navbar.html' %}
 
-    </header>
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
-    <footer>
-
-    </footer>
+    {% block content %}
+    {% endblock %}
+    
+    {% include 'footer.html' %}
 </body>
 </html>
