@@ -7,4 +7,8 @@ Integração com Tailwind v3.4.17 CSS
     npx tailwindcss init
 ```
 
+Criação do banco e do super usuário
+```
 python manage.py migrate
+python manage.py createsuperuser
+```
