@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'fishing_identifier.urls'
+ROOT_URLCONF = 'industry_learning.urls'
 
 TEMPLATES = [
     {
@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'fishing_identifier.wsgi.application'
+WSGI_APPLICATION = 'industry_learning.wsgi.application'
 
 
 # Database
